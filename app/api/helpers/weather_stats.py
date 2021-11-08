@@ -13,7 +13,8 @@ def compute_temperature_stats(city, days):
         data: (dict) the stats for the city
     """
     # Get the weather data from the weatherapi
-    url = f"https://api.weatherapi.com/v1/forecast.json?key={settings.WEATHER_API_KEY}&q={city}&days={days}"
+    base_url = "https://api.weatherapi.com/v1/forecast.json?key"
+    url = f"{base_url}={settings.WEATHER_API_KEY}&q={city}&days={days}"
     response = requests.get(url)
     data = response.json()
     if response.status_code != 200:

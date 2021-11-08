@@ -28,7 +28,6 @@ var/
 *ipynb
 *rdb
 
-
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -99,17 +98,15 @@ db.sqlite3
 # vscode
 .vscode
 
- # vim temporary files
+# vim temporary files
 .*.swp
 .*.swn
 .*.swo
- # vim python config
+# vim python config
 .ycm_extra_conf.py
 *.DS_Store
 .vscode/settings.json
 *.DS_Store
 .history/
-*.env*
-*.env*
 *.pem
 coverage_html_report/

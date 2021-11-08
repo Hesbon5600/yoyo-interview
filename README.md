@@ -48,7 +48,7 @@ $ touch .env
 open .env file and enter your corresponding database details as follows
 
 ```
-SECRET_KEY='django-insecure-f!f++w+u3=qh%fkj(6l2$oyyk7*g8+u3*hz0b1*qc*@(ll-uq^'
+SECRET_KEY='f++w+u3=qh%fkj(6l2$oyyk7*g8+u3*hz0b1*qc*@(ll-uq^'
 WEATHER_API_KEY=77e334f55f184f91afc144327201409
 ```
 
@@ -72,6 +72,12 @@ make run
 
 ```
 $ make test
+```
+
+- Testing code linting
+
+```
+$ make lint
 ```
 
 ---
