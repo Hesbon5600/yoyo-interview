@@ -4,11 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-djangorestframework = "*"
-django-softdelete = "*"
-drf-yasg2 = "*"
-pyjwt = "*"
+django = ">=3.2.9"
+djangorestframework = ">=3.12.4"
+drf-yasg2 = ">=1.19.4"
 
 [dev-packages]
 flake8 = "*"

@@ -42,14 +42,14 @@ $ pipenv shell
   On Unix or MacOS, run:
 
 ```
-$ touch .env
+$ cp .env.example .env
 ```
 
-open .env file and enter your corresponding database details as follows
+The env should now have the following variables:
 
 ```
-SECRET_KEY='f++w+u3=qh%fkj(6l2$oyyk7*g8+u3*hz0b1*qc*@(ll-uq^'
-WEATHER_API_KEY=77e334f55f184f91afc144327201409
+SECRET_KEY=<value-here>
+WEATHER_API_KEY=<value-here>
 ```
 
 Note: There is no space next to '='
@@ -89,5 +89,7 @@ $ make lint
 ```
 $ http://localhost:8000/api/docs/
 ```
+
+- Expand the endpoint and click `try it out`
 
 ---
